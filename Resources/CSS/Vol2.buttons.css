@@ -1,0 +1,445 @@
+body {
+    background-image: url(../Images/background_image_12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ########################################################################################################### */
+
+/* ##########################################   WEBSITE INTRO    ############################################# */
+
+/* WEBSITE INTRO CONTAINER */
+
+.website_intro_container {
+    position: absolute;
+    bottom: -70px;
+    right: 25px;
+    width: 600px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    background-color: rgba(255, 165, 0, 0.8);
+    padding: 25px 25px 35px 25px;
+    box-shadow: -5px 5px 4px rgb(253, 94, 83);
+  }
+  
+  /* WEBSITE INTRO TITLE */
+  
+  .website_intro_title {
+    font-family: Aoboshi One;
+    font-style: italic;
+    color: #DC143C;
+    margin-top: 0;
+    text-shadow: 1px 1px 1px rgb(30, 144, 255);
+    font-size: 32px;
+  }
+  
+  /* WEBSITE INTRO CONTENT */
+  
+  .website_intro_paragraph {
+    font-family: 'Roboto Condensed';
+    font-size: 19px;
+    color: #7D3C98;
+  }
+
+  .view_fonts_link {
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: 	#4B0082;
+    text-shadow: 1px 1px 1px rgb(231, 76, 60);
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .view_fonts_link:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 10px rgb(255, 255, 0);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+
+  .view_fonts_link:active {
+    text-shadow: 2px 2px 1px rgb(255, 105, 180);
+    transition: text-shadow 0s;
+  }
+  
+  /* ########################################################################################################### */
+
+
+    /* ##########################################   NAVIGATION    ############################################# */
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 20px;
+    left: 18px;
+    text-align: right;
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration:underline;
+    color:bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18pt;
+    margin: auto;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    transition: text-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+    transform: scale(1.02); 
+  }
+  
+  nav a:active {
+    text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+    transition: text-shadow 0.1s ease;
+  }
+
+/* ########################################################################################################### */
+
+/* ##########################################   HEADER    ############################################# */
+
+    .web_title {
+        position: absolute;
+        top: -35px;
+        left: 45px;
+    }
+  
+    .web_title h1 {
+    font-style: italic;
+    text-align: center;
+    color: #FFDB58;
+    text-shadow: 3px 3px 2px rgba(255, 105, 180, 0.7);
+    font-size: 80px;
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+  }
+
+/* ########################################################################################################### */
+
+
+/* ##########################################   BUTTONS    ############################################# */
+
+    button {
+      height: 50px;
+      width: 200px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 35px;
+    }
+
+/* ------------------------ */
+#standard_button_container {
+  margin: 20px auto;
+  width: 85%;
+  height: 925px;
+  background-color: rgba(255, 218, 185, 0.7);
+  border: 2px solid rgba(255, 255, 153, 0.3);
+  box-shadow: 0px 0px 10px rgb(178, 34, 34);
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:left;
+  position: relative;
+  top: 1050px;
+}
+
+.standard_button_info {
+  position: relative;
+  left: 25px;
+  text-align: left;
+  width: 600px;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.standard_button_examples_container {
+  position: absolute;
+  right: 175px;
+  text-align: left;
+  width: 500px;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.standard_button_example_1{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.standard_button_example_2 {
+  margin-bottom: 50px;
+}
+
+.standard_button_example_2 button:hover {
+  background-color: 	#FFFF00;
+}
+
+.standard_button_example_2 button:active {
+  background-color: #E74C3C;
+}
+
+.standard_button_example_3 {
+  margin-bottom: 50px;
+}
+
+.standard_button_example_3 button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  background-color:	#FFFF00;
+}
+
+.standard_button_example_3 button:active {
+  background-color: #E74C3C;
+}
+
+/* -------------------------- */
+
+/* -------------------------- */
+#flat_button_container {
+  margin: 20px auto;
+  width: 85%;
+  height: 925px;
+  background-color: rgba(255, 218, 185, 0.7);
+  border: 2px solid rgba(255, 255, 153, 0.3);
+  box-shadow: 0px 0px 10px rgb(178, 34, 34);
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:left;
+  position: relative;
+  top: 1050px;
+}
+
+.flat_button_info {
+  position: relative;
+  left: 25px;
+  text-align: left;
+  width: 600px;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.flat_button_examples_container {
+  position: absolute;
+  right: 175px;
+  text-align: left;
+  width: 500px;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.flat_button_example_1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.flat_button_example_1 button {
+  border-radius: 22px;
+  color: #FFFF99;
+  background-color: #191970;
+  border: 1px solid #191970;
+}
+
+.flat_button_example_1 button:hover {
+  color:#FFC0CB;
+  transition: font-size 0.3s ease;
+}
+
+.flat_button_example_1 button:active {
+  color: #DC143C;
+}
+
+.flat_button_example_2 {
+  margin-bottom: 50px;
+}
+
+.flat_button_example_2 button {
+  border-radius: 22px;
+  color: #FFFF99;
+  background-color: #191970;
+  border: 1px solid #191970;
+}
+
+.flat_button_example_2 button:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.flat_button_example_2 button:active {
+  color: #DC143C;
+}
+
+.flat_button_example_3 {
+  margin-bottom: 50px;
+}
+
+.flat_button_example_3 button {
+  border-radius: 22px;
+  color: #FFFF99;
+  background-color: #191970;
+  border: 1px solid #191970;
+}
+
+.flat_button_example_3 button:hover {
+  transform: scale(1.03);
+  box-shadow: -2px 2px 10px #800000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flat_button_example_3 button:active {
+  color: #DC143C;
+}
+/* ---------------------------- */
+
+/* ---------------------------- */
+#skeuomorphic_button_container {
+  margin: 20px auto;
+  width: 85%;
+  height: 925px;
+  background-color: rgba(255, 218, 185, 0.7);
+  border: 2px solid rgba(255, 255, 153, 0.3);
+  box-shadow: 0px 0px 10px rgb(178, 34, 34);
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:left;
+  position: relative;
+  top: 1050px;
+}
+.skeuomorphic_button_info {
+  position: relative;
+  left: 25px;
+  text-align: left;
+  width: 600px;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.skeuomorphic_button_examples_container {
+  position: absolute;
+  right: 175px;
+  text-align: left;
+  width: 500px;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.skeuomorphic_button_example_1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skeuomorphic_button_example_1 button {
+  border: 2px solid #B22222;
+  border-radius: 5px;
+  color: #F8F8F8;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  background: linear-gradient(#E74C3C, #DC143C);
+  text-shadow: 0 -2px #191970;
+}
+
+.skeuomorphic_button_example_1 button:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: #B22222;
+  background: linear-gradient(#DC143C, #B22222);
+  border-color: #800000;
+}
+
+.skeuomorphic_button_example_1 button:active {
+  box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: #B22222;
+  background: linear-gradient(#B22222, #800000);
+}
+
+.skeuomorphic_button_example_2 {
+  margin-bottom: 50px;
+}
+
+.skeuomorphic_button_example_2 button {
+  border: 2px solid #B22222;
+  border-radius: 5px;
+  color: #F8F8F8;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  background: linear-gradient(#E74C3C, #DC143C);
+  text-shadow: 0 -2px #191970;
+}
+
+.skeuomorphic_button_example_2 button:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: #B22222;
+  background: linear-gradient(#DC143C, #B22222);
+  border-color: #800000;
+}
+
+.skeuomorphic_button_example_2 button:active {
+  margin-top: 2px;
+  margin-bottom: -2px;
+}
+
+.skeuomorphic_button_example_3 {
+  margin-bottom: 50px;
+}
+
+.skeuomorphic_button_example_3 button {
+  border: 2px solid #B22222;
+  border-radius: 5px;
+  color: #F8F8F8;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  background: linear-gradient(#E74C3C, #DC143C);
+  text-shadow: 0 -2px #191970;
+}
+
+.skeuomorphic_button_example_3 button:hover {
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #B22222;
+  background: linear-gradient(#DC143C, #B22222);
+  border-color: #800000;
+}
+
+.skeuomorphic_button_example_3 button:active {
+  margin-top: 2px;
+  margin-bottom: -2px;
+}
+/* ---------------------------- */
+
+/* ########################################################################################################### */
+
+/* ############################# CONTAINER BELOW FONT STYLES CONTAINER ###################################### */
+
+.container_below_buttons_container {
+  margin: 20px auto;
+  width: 85%;
+  height: 1045px;
+}
+
+/* ########################################################################################################### */

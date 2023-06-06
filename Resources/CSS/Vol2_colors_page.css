@@ -1,0 +1,357 @@
+body {
+    /* background-image: url(../Images/background_image_1.jpg); */
+    /* background-image: url(../Images/background_image_2.jpg); */
+    /* background-image: url(../Images/background_image_3.jpg); */
+    background-image: url(../Images/background_image_11.jpg);
+    /* background-image: url(../Images/background_image_5.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ########################################################################################################### */
+
+/* #############################################   WEBSITE TITLE   ############################################ */
+
+.color_heading {
+  text-align: center;
+  font-style: italic;
+  font-family: Aoboshi One;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  /* background-color: rgba(250, 235, 215); */
+  /* background-color: rgba(250, 235, 215, 0.2); */
+  width: 315px;
+  padding: 15px;
+  margin: auto;
+  font-size: 50px;
+  text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  /* text-decoration: underline;
+  text-decoration-color: #B0E0E6;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 12px; */
+}
+
+/* COLORS EACH LETTER FOR TITLE */
+
+.first {
+  color: red;
+}
+
+.second {
+  color: green;
+}
+
+.third {
+  color: blue;
+}
+
+.fourth {
+  color: pink;
+}
+
+.fifth {
+  color: purple;
+}
+
+.sixth {
+  color: orange;
+}
+
+/* ########################################################################################################### */
+
+/* #############################################   NAVIGATION   ############################################## */
+
+nav ul {
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: -14px;
+  text-align: left;
+}
+
+nav li {
+  display: block;
+}
+
+nav a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration:underline;
+  color:bisque;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18pt;
+  margin: auto;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+  text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+  transform: scale(1.02); 
+}
+
+nav a:active {
+  text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+  transition: text-shadow 0.1s ease;
+}
+
+/* ########################################################################################################### */
+
+    /* ##########################################   WEBSITE INTRO    ############################################# */
+
+/* WEBSITE INTRO CONTAINER */
+
+.website_intro_container {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 600px;
+  background-color: rgba(255, 165, 0, 0.8);
+  padding: 25px;
+  box-shadow: -5px 5px 4px rgb(253, 94, 83);
+}
+
+/* WEBSITE INTRO TITLE */
+
+.website_intro_title {
+  font-family: Aoboshi One;
+  font-style: italic;
+  /* color: #FF69B4; */
+  /* color: 	rgb(75, 0, 130); */
+  color: #DC143C;
+  margin-top: 0;
+  /* color: rgb(30, 144, 255); */
+  text-shadow: 1px 1px 1px rgb(30, 144, 255);
+  /* text-shadow: 1px 1px 1px #FF69B4; */
+  font-size: 32px;
+}
+
+/* WEBSITE INTRO CONTENT */
+
+.website_intro_paragraph {
+  font-family: 'Roboto Condensed';
+  font-size: 19px;
+  color: #7D3C98;
+}
+
+.view_fonts_link {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  font-size: 28px;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: 	#4B0082;
+  text-shadow: 1px 1px 1px rgb(231, 76, 60);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.view_fonts_link:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 2px 10px rgb(255, 255, 0);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.view_fonts_link:active {
+  text-shadow: 2px 2px 1px rgb(255, 105, 180);
+  transition: text-shadow 0s;
+}
+
+/* ########################################################################################################### */
+
+/* ##########################################      COLOR STYLES      ################################################ */
+
+#table_container {
+  position: relative;
+  top: 1000px; 
+  /* bottom: 100px; */
+}
+  
+  /* COLORS TABLE */
+  
+  table {
+    margin: 20px auto;
+    width: 80%;
+    position: static;;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  thead th {
+    background: #88CCF1;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 25%;
+  }
+  
+  /* BLUE COLOR EXAMPLES */
+  
+  .baby_blue_example {
+    background-color: #B0E0E6;
+  }
+  
+  .sky_blue_example {
+    background-color: #87CEEB;
+  }
+  
+  .royal_blue_example {
+    background-color: #4169E1;
+  }
+
+  .indigo_blue_example {
+    background-color: #4B0082;
+  }
+
+  .midnight_blue_example {
+    background-color: #191970;
+  }
+  
+  /* YELLOW COLOR EXAMPLES */
+
+.lemon_yellow_example {
+    background-color: #FFFF00;
+}
+
+.canary_yellow_example {
+    background-color: #FFFF99;
+}
+
+.goldenrod_yellow_example {
+    background-color: #DAA520;
+}
+
+.mustard_yellow_example {
+    background-color: #FFDB58;
+}
+
+.amber_yellow_example {
+    background-color: #FFBF00;
+}
+  
+  /* PINK COLOR EXAMPLES */
+  
+  .baby_pink_example {
+    background-color: #FFC0CB;
+  }
+
+  .cotton_candy_pink_example {
+    background-color: #FFBCD9;
+  }
+
+  .bubblegum_pink_example {
+    background-color: #FF69B4;
+  }
+  
+  
+  .hot_pink_example {
+    background-color: #FF1493;
+  }
+
+  .magneta_pink_example {
+    background-color: #FF00FF;
+  }
+  
+  
+  /* ORANGE COLOR EXAMPLES */
+  
+  .peach_orange_example {
+    background-color: #FFDAB9;
+  }
+
+  .salmon_orange_example {
+    background-color: #FF8C69;
+  }
+
+  .coral_orange_example {
+    background-color: #FF7F50;
+  }
+  
+  .burnt_orange_example {
+    background-color: #CC5500;
+  }
+
+  .rust_orange_example {
+    background-color: #B7410E;
+  }
+  
+  /* RED COLOR EXAMPLES */
+
+  .ruby_red_example {
+    background-color: #E74C3C;
+  }
+
+  .crimson_red_example {
+    background-color: #DC143C;
+  }
+
+  .brick_red_example {
+    background-color: #B22222;
+  }
+
+  .maroon_red_example {
+    background-color: #800000;
+  }
+
+  .burgundy_red_example {
+    background-color: #800020;
+  }
+
+  /* GREEN COLOR EXAMPLES */
+  
+  .mint_green_example {
+    background-color: #98FF98;
+  }
+
+  .seafoam_green_example {
+    background-color: #00FFB2;
+  }
+
+  .lime_green_example {
+    background-color: #00FF00;
+  }
+
+  .forest_green_example {
+    background-color: #228B22;
+  }
+
+  .olive_green_example {
+    background-color: #808000;
+  }
+
+
+  /* ########################################################################################################### */
+
+  /* ############################# CONTAINER BELOW FONT STYLES CONTAINER ###################################### */
+.container_below_color_styles_container {
+  margin: 20px auto;
+  width: 85%;
+  height: 1000px;
+}
+/* ########################################################################################################### */
